@@ -1,6 +1,6 @@
 const CustomError = require("../extensions/custom-error");
 
-class VigenereCipheringMachine(type) {
+class VigenereCipheringMachine {
 
   encrypt(message, key) {
     if(message === undefined || key === undefined || key === null || message === null){
